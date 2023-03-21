@@ -1,32 +1,29 @@
 body{
-    background-color: #277863;
-    display: flex;
+    background-color: gainsboro;
+    margin: 0px;
 
 }
+/* @import url('https://fonts.cdnfonts.com/css/tiempos-headline'); */
+
+@font-face {
+    font-family: 'Tiempos Headline', sans-serif;
+    font-style: normal;
+    /* font-weight: 400; */
+    src: url("https://fonts.cdnfonts.com/css/tiempos-headline");
+  }
+
 p{
-    text-align: left;
-    color: antiquewhite;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 20px;
+    margin: 5px;
 }
 
-h1{
+#heading{
+    position: sticky;
+    top: 0;
+    background-color: white;
     text-align: center;
-    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+    padding: 10px;
+    z-index: 1;
 }
 
-#left{
-    width: 20%;
-    float: left;
-}
-
-#center{
-    float: none;
-    width: 60%;
-
-}
-
-#right{
-    width: 20%;
-    float: right;
-
-}
