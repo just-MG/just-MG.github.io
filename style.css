@@ -3,19 +3,12 @@ body{
     margin: 0px;
 
 }
-/* @import url('https://fonts.cdnfonts.com/css/tiempos-headline'); */
-
-@font-face {
-    font-family: 'Tiempos Headline', sans-serif;
-    font-style: normal;
-    /* font-weight: 400; */
-    src: url("https://fonts.cdnfonts.com/css/tiempos-headline");
-  }
-
-p{
-    font-size: 20px;
-    margin: 5px;
-}
+@import url('https://fonts.cdnfonts.com/css/tiempos-headline');
+        p{
+            font-family: 'Tiempos Headline', sans-serif;
+            font-size: 20px;
+            margin: 5px;
+        }
 
 #heading{
     position: sticky;
