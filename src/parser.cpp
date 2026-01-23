@@ -1,26 +1,18 @@
 #include <iostream>
 #include <string>
 #include "parser.h"
+#include "lexer.h"
 
 using namespace std;
 
 
-typedef enum {
-    TEXT,
-    CTRL_HASH,
-    CTRL_AST,
-    CTRL_LBRACKET,
-    CTRL_RBRACKET,
-} TokenType ;
 
 
 
 string parseLine(string input){
     string tmp = "Hello World: " + input;
 
-    TokenType a = CTRL_AST;
-    cout << a;
-    cout << "\n";
+    // parseLine(string input)
     return tmp;
 
 }
